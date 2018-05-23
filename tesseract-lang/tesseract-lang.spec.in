@@ -1,0 +1,28 @@
+Name:          tesseract-lang
+Version:       4.00~git30
+Release:       1%{?dist}
+Summary:       Language data
+
+License:       Apache-2.0
+URL:           https://github.com/tesseract-ocr/tessdata_fast
+Source0:       tesseract-lang_4.00~git30-7274cfa.orig.tar.xz
+
+BuildRequires: automake libtool
+
+%description
+Tesseract is an open source Optical Character Recognition (OCR)
+Engine. It can be used directly, or (for programmers) using an API to
+extract printed text from images. 
+
+%if 0%{?suse_version} > 1130
+%define tessdata    tesseract-ocr
+%else
+%define tessdata    tesseract
+%endif
+
+%prep
+%setup -n tesseract-lang-4.00~git30-7274cfa
+%install
+mkdir -p %{buildroot}/%{_datadir}/%{tessdata}/4/tessdata/
+install -Dpm 0644 *.traineddata %{buildroot}/%{_datadir}/%{tessdata}/4/tessdata/
+install -Dpm 0644 script/*.traineddata %{buildroot}/%{_datadir}/%{tessdata}/4/tessdata/

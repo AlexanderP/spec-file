@@ -1,0 +1,22 @@
+--- tesseract-4.00~git2230-59dc3e62.orig/tessdata/Makefile.am
++++ tesseract-4.00~git2230-59dc3e62/tessdata/Makefile.am
+@@ -1,4 +1,4 @@
+-datadir = @datadir@/tessdata
++datadir = @datadir@/tesseract/4/tessdata
+ 
+ data_DATA = pdf.ttf
+ EXTRA_DIST = $(data_DATA)
+--- tesseract-4.00~git2230-59dc3e62.orig/tessdata/configs/Makefile.am
++++ tesseract-4.00~git2230-59dc3e62/tessdata/configs/Makefile.am
+@@ -1,3 +1,3 @@
+-datadir = @datadir@/tessdata/configs
++datadir = @datadir@/tesseract/4/tessdata/configs
+ data_DATA = inter makebox box.train unlv ambigs.train lstm.train api_config kannada box.train.stderr quiet logfile digits hocr tsv linebox pdf rebox strokewidth bigram txt
+ EXTRA_DIST = inter makebox box.train unlv ambigs.train lstm.train api_config kannada box.train.stderr quiet logfile digits hocr tsv linebox pdf rebox strokewidth bigram txt
+--- tesseract-4.00~git2230-59dc3e62.orig/tessdata/tessconfigs/Makefile.am
++++ tesseract-4.00~git2230-59dc3e62/tessdata/tessconfigs/Makefile.am
+@@ -1,3 +1,3 @@
+-datadir = @datadir@/tessdata/tessconfigs
++datadir = @datadir@/tesseract/4/tessdata/tessconfigs
+ data_DATA = batch batch.nochop nobatch matdemo segdemo msdemo
+ EXTRA_DIST = batch batch.nochop nobatch matdemo segdemo msdemo
