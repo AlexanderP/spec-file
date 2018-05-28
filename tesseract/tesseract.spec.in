@@ -19,7 +19,7 @@ BuildRequires: cairo-devel
 BuildRequires: libicu-devel
 BuildRequires: pango-devel
 BuildRequires: automake libtool autoconf-archive gcc-c++
-BuildRequires: libxslt-devel
+BuildRequires: libxslt-devel git
 %if 0%{?suse_version} > 1130
 BuildRequires: docbook-xsl-stylesheets
 BuildRequires: tesseract-ocr-traineddata-english
