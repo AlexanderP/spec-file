@@ -82,7 +82,8 @@ make training %{?_smp_mflags}
 %endif
 
 echo "auto_test"
-./src/api/tesseract ./testing/phototest.tif - -
+./src/api/tesseract -v
+./src/api/tesseract ./testing/phototest.tif auto_test && cat auto_test.txt
 
 %install
 %make_install
