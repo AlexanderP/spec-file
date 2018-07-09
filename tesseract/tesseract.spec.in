@@ -83,7 +83,7 @@ make training %{?_smp_mflags}
 
 echo "auto_test"
 ./src/api/tesseract -v
-./src/api/tesseract ./testing/phototest.tif auto_test && cat auto_test.txt
+./src/api/tesseract ./test/testing/phototest.tif -
 
 %install
 %make_install
@@ -141,7 +141,7 @@ open-sourced by HP and UNLV in 2005.
 
 %files ocr
 %license COPYING
-%doc AUTHORS ChangeLog README.md testing/eurotext.tif testing/phototest.tif
+%doc AUTHORS ChangeLog README.md test/testing/eurotext.tif test/testing/phototest.tif
 %{_bindir}/ambiguous_words
 %{_bindir}/classifier_tester
 %{_bindir}/cntraining
