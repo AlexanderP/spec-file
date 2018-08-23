@@ -30,7 +30,7 @@ BuildRequires: docbook-style-xsl
 
 %if 0%{?rhel_version} != 700
 BuildRequires: asciidoc
-endif
+%endif
 
 %if 0%{?suse_version} < 1130
 Requires:      tesseract-langpack-eng >= 3.99 
@@ -70,7 +70,7 @@ developing applications that use %{name}.
 %else
 %if 0%{?rhel_version} != 700
 %patch1 -p1
-endif
+%endif
 %patch3 -p1
 %endif
 
@@ -115,6 +115,9 @@ rm -f %{buildroot}%{_mandir}/man1/text2image*
 %make_install training-install
 %endif
 
+%if 0%{?rhel_version} == 700
+rm -f %{buildroot}%{_mandir}/man1/*
+%endif
 
 mkdir -p %{buildroot}%{_datadir}/%{name}/4/tessdata
 
