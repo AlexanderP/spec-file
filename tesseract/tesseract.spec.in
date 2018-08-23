@@ -27,7 +27,11 @@ BuildRequires: tesseract-ocr-traineddata-english
 BuildRequires: tesseract-langpack-eng
 BuildRequires: docbook-style-xsl
 %endif
+
+%if 0%{?rhel_version} != 700
 BuildRequires: asciidoc
+endif
+
 %if 0%{?suse_version} < 1130
 Requires:      tesseract-langpack-eng >= 3.99 
 Requires:      tesseract-langpack-osd >= 3.99 
@@ -64,7 +68,9 @@ developing applications that use %{name}.
 %patch2 -p1
 %patch4 -p1
 %else
+%if 0%{?rhel_version} != 700
 %patch1 -p1
+endif
 %patch3 -p1
 %endif
 
