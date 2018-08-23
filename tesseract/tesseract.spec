@@ -1,13 +1,13 @@
 Name:          tesseract
-Version:       4.00~git2489
+Version:       4.00~git2904
 Release:       1%{?dist}
 Summary:       Tesseract command line OCR tool
 
 License:       Apache-2.0
 URL:           https://github.com/tesseract-ocr/%{name}
-Source0:       tesseract_4.00~git2489-5a56d0c2.orig.tar.xz
+Source0:       tesseract_4.00~git2904-07acc2b2.orig.tar.xz
 
-Patch0:        helptext
+Patch0:        helptext.diff
 Patch1:        man.diff
 Patch2:        man_suse.diff
 Patch3:        tesseract_datadir.patch
@@ -19,7 +19,7 @@ BuildRequires: cairo-devel
 BuildRequires: libicu-devel
 BuildRequires: pango-devel
 BuildRequires: automake libtool autoconf-archive gcc-c++
-BuildRequires: libxslt-devel
+BuildRequires: libxslt-devel git
 %if 0%{?suse_version} > 1130
 BuildRequires: docbook-xsl-stylesheets
 BuildRequires: tesseract-ocr-traineddata-english
@@ -27,7 +27,11 @@ BuildRequires: tesseract-ocr-traineddata-english
 BuildRequires: tesseract-langpack-eng
 BuildRequires: docbook-style-xsl
 %endif
+
+%if 0%{?rhel_version} != 700
 BuildRequires: asciidoc
+%endif
+
 %if 0%{?suse_version} < 1130
 Requires:      tesseract-langpack-eng >= 3.99 
 Requires:      tesseract-langpack-osd >= 3.99 
@@ -58,13 +62,15 @@ The %{name}-devel package contains header file for
 developing applications that use %{name}.
 
 %prep
-%setup -n tesseract-4.00~git2489-5a56d0c2
+%setup -n tesseract-4.00~git2904-07acc2b2
 %patch0 -p1
 %if 0%{?suse_version} > 1130
 %patch2 -p1
 %patch4 -p1
 %else
+%if 0%{?rhel_version} != 700
 %patch1 -p1
+%endif
 %patch3 -p1
 %endif
 
@@ -75,18 +81,19 @@ autoreconf -ifv
 %configure --disable-static --disable-tessdata-prefix CXXFLAGS="$RPM_OPT_FLAGS -DTESSDATA_PREFIX=/usr/share/%{tessdata}/4" LDFLAGS="-llept -Wl,-z,defs -Wl,-z,relro"
 
 make %{?_smp_mflags}
-%if 0%{?centos_version} == 700 || 0%{?scientificlinux_version} == 700
+%if 0%{?centos_version} == 700 || 0%{?scientificlinux_version} == 700 || 0%{?rhel_version} == 700
 echo "no training build"
 %else
 make training %{?_smp_mflags} 
 %endif
 
 echo "auto_test"
-./src/api/tesseract ./testing/phototest.tif - -
+./src/api/tesseract -v
+./src/api/tesseract ./test/testing/phototest.tif -
 
 %install
 %make_install
-%if 0%{?centos_version} == 700 || 0%{?scientificlinux_version} == 700
+%if 0%{?centos_version} == 700 || 0%{?scientificlinux_version} == 700 || 0%{?rhel_version} == 700
 echo "no training install"
 rm -f %{buildroot}%{_mandir}/man5/*
 rm -f %{buildroot}%{_mandir}/man1/ambiguous_words*
@@ -108,6 +115,9 @@ rm -f %{buildroot}%{_mandir}/man1/text2image*
 %make_install training-install
 %endif
 
+%if 0%{?rhel_version} == 700
+rm -f %{buildroot}%{_mandir}/man1/*
+%endif
 
 mkdir -p %{buildroot}%{_datadir}/%{name}/4/tessdata
 
@@ -140,7 +150,7 @@ open-sourced by HP and UNLV in 2005.
 
 %files ocr
 %license COPYING
-%doc AUTHORS ChangeLog README.md testing/eurotext.tif testing/phototest.tif
+%doc AUTHORS ChangeLog README.md test/testing/eurotext.tif test/testing/phototest.tif
 %{_bindir}/ambiguous_words
 %{_bindir}/classifier_tester
 %{_bindir}/cntraining
@@ -177,8 +187,10 @@ open-sourced by HP and UNLV in 2005.
 %files
 %license COPYING
 %doc AUTHORS ChangeLog 
-%if 0%{?centos_version} == 700 || 0%{?scientificlinux_version} == 700
+%if 0%{?centos_version} == 700 || 0%{?scientificlinux_version} == 700 || 0%{?rhel_version} == 700
+%if 0%{?rhel_version} != 700
 %{_mandir}/man1/tesseract.*
+%endif
 %else
 %{_bindir}/ambiguous_words
 %{_bindir}/classifier_tester
@@ -215,6 +227,21 @@ open-sourced by HP and UNLV in 2005.
 
 
 %changelog
+* Thu Aug 23 2018 Alexander Pozdnyakov <almipo@mail.ru>  - 4.00~git2904-1
+- Compile
+- URL: git://github.com/tesseract-ocr/tesseract.git
+- Branch: master
+- Commit: 07acc2b260187eebeb5aed4d063156612560fa24
+* Sun Aug 19 2018 Alexander Pozdnyakov <almipo@mail.ru>  - 4.00~git2891-1
+- Compile
+- URL: git://github.com/tesseract-ocr/tesseract.git
+- Branch: master
+- Commit: 115fe7662c33d6a5bd8423c31b4519b5d0b1435e
+* Sun Jun 10 2018 Alexander Pozdnyakov <almipo@mail.ru>  - 4.00~git2581-1
+- Compile
+- URL: git://github.com/tesseract-ocr/tesseract.git
+- Branch: master
+- Commit: a4241c98170604d346a41604825f0d154e1dd3b3
 * Wed May 23 2018 Alexander Pozdnyakov <almipo@mail.ru>  - 4.00~git2489-1
 - Compile
 - URL: git://github.com/tesseract-ocr/tesseract.git

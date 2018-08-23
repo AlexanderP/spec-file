@@ -188,7 +188,9 @@ open-sourced by HP and UNLV in 2005.
 %license COPYING
 %doc AUTHORS ChangeLog 
 %if 0%{?centos_version} == 700 || 0%{?scientificlinux_version} == 700 || 0%{?rhel_version} == 700
+%if 0%{?rhel_version} != 700
 %{_mandir}/man1/tesseract.*
+%endif
 %else
 %{_bindir}/ambiguous_words
 %{_bindir}/classifier_tester
