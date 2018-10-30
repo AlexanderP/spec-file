@@ -1,11 +1,11 @@
 Name:          tesseract
-Version:       4.00~git2904
+Version:       4.0.0
 Release:       1%{?dist}
 Summary:       Tesseract command line OCR tool
 
 License:       Apache-2.0
 URL:           https://github.com/tesseract-ocr/%{name}
-Source0:       tesseract_4.00~git2904-07acc2b2.orig.tar.xz
+Source0:       tesseract_4.0.0.orig.tar.xz
 
 Patch0:        helptext.diff
 Patch1:        man.diff
@@ -62,7 +62,7 @@ The %{name}-devel package contains header file for
 developing applications that use %{name}.
 
 %prep
-%setup -n tesseract-4.00~git2904-07acc2b2
+%setup -n tesseract-4.0.0
 %patch0 -p1
 %if 0%{?suse_version} > 1130
 %patch2 -p1
@@ -167,6 +167,9 @@ open-sourced by HP and UNLV in 2005.
 %{_bindir}/unicharset_extractor
 %{_bindir}/wordlist2dawg
 %{_bindir}/tesseract
+%{_bindir}/language-specific.sh
+%{_bindir}/tesstrain.sh
+%{_bindir}/tesstrain_utils.sh
 %{_mandir}/man1/*
 %{_mandir}/man5/*
 
@@ -207,6 +210,9 @@ open-sourced by HP and UNLV in 2005.
 %{_bindir}/text2image
 %{_bindir}/unicharset_extractor
 %{_bindir}/wordlist2dawg
+%{_bindir}/language-specific.sh
+%{_bindir}/tesstrain.sh
+%{_bindir}/tesstrain_utils.sh
 %{_mandir}/man1/*
 %{_mandir}/man5/*
 %endif
@@ -227,11 +233,11 @@ open-sourced by HP and UNLV in 2005.
 
 
 %changelog
-* Thu Aug 23 2018 Alexander Pozdnyakov <almipo@mail.ru>  - 4.00~git2904-1
+* Wed Oct 24 2018 Alexander Pozdnyakov <almipo@mail.ru>  - 4.00~git3241-1
 - Compile
 - URL: git://github.com/tesseract-ocr/tesseract.git
 - Branch: master
-- Commit: 07acc2b260187eebeb5aed4d063156612560fa24
+- Commit: 1066f696dd1439c61ec04ea341666439a97f49a5
 * Sun Aug 19 2018 Alexander Pozdnyakov <almipo@mail.ru>  - 4.00~git2891-1
 - Compile
 - URL: git://github.com/tesseract-ocr/tesseract.git

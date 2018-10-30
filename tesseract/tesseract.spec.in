@@ -167,6 +167,9 @@ open-sourced by HP and UNLV in 2005.
 %{_bindir}/unicharset_extractor
 %{_bindir}/wordlist2dawg
 %{_bindir}/tesseract
+%{_bindir}/language-specific.sh
+%{_bindir}/tesstrain.sh
+%{_bindir}/tesstrain_utils.sh
 %{_mandir}/man1/*
 %{_mandir}/man5/*
 
@@ -207,6 +210,9 @@ open-sourced by HP and UNLV in 2005.
 %{_bindir}/text2image
 %{_bindir}/unicharset_extractor
 %{_bindir}/wordlist2dawg
+%{_bindir}/language-specific.sh
+%{_bindir}/tesstrain.sh
+%{_bindir}/tesstrain_utils.sh
 %{_mandir}/man1/*
 %{_mandir}/man5/*
 %endif
