@@ -1,15 +1,13 @@
 Name:          tesseract
-Version:       4.0.0
+Version:       4.0.0+git3524
 Release:       1%{?dist}
 Summary:       Tesseract command line OCR tool
 
 License:       Apache-2.0
 URL:           https://github.com/tesseract-ocr/%{name}
-Source0:       tesseract_4.0.0.orig.tar.xz
+Source0:       tesseract_4.0.0+git3524-ec8f02c0.orig.tar.xz
 
 Patch0:        helptext.diff
-Patch1:        man.diff
-Patch2:        man_suse.diff
 Patch3:        tesseract_datadir.patch
 Patch4:        tesseract_datadir_suse.patch
 
@@ -62,15 +60,11 @@ The %{name}-devel package contains header file for
 developing applications that use %{name}.
 
 %prep
-%setup -n tesseract-4.0.0
+%setup -n tesseract-4.0.0+git3524-ec8f02c0
 %patch0 -p1
 %if 0%{?suse_version} > 1130
-%patch2 -p1
 %patch4 -p1
 %else
-%if 0%{?rhel_version} != 700
-%patch1 -p1
-%endif
 %patch3 -p1
 %endif
 
@@ -149,7 +143,7 @@ open-sourced by HP and UNLV in 2005.
 %postun -n libtesseract%{major} -p /sbin/ldconfig
 
 %files ocr
-%license COPYING
+%license LICENSE
 %doc AUTHORS ChangeLog README.md test/testing/eurotext.tif test/testing/phototest.tif
 %{_bindir}/ambiguous_words
 %{_bindir}/classifier_tester
@@ -178,6 +172,8 @@ open-sourced by HP and UNLV in 2005.
 %dir %{_datadir}/%{tessdata}
 %dir %{_datadir}/%{tessdata}/4
 %dir %{_datadir}/%{tessdata}/4/tessdata
+
+
 %{_datadir}/%{tessdata}/4/tessdata/configs/
 %{_datadir}/%{tessdata}/4/tessdata/tessconfigs/
 %{_datadir}/%{tessdata}/4/tessdata/pdf.ttf
@@ -188,7 +184,7 @@ open-sourced by HP and UNLV in 2005.
 %postun -p /sbin/ldconfig
 
 %files
-%license COPYING
+%license LICENSE
 %doc AUTHORS ChangeLog 
 %if 0%{?centos_version} == 700 || 0%{?scientificlinux_version} == 700 || 0%{?rhel_version} == 700
 %if 0%{?rhel_version} != 700
@@ -233,6 +229,11 @@ open-sourced by HP and UNLV in 2005.
 
 
 %changelog
+* Wed Feb 06 2019 Alexander Pozdnyakov <almipo@mail.ru>  - 4.0.0+git3524-1
+- Compile
+- URL: git://github.com/tesseract-ocr/tesseract.git
+- Branch: master
+- Commit: ec8f02c0de853723bbc785c19fc6c96201411c8f
 * Wed Oct 24 2018 Alexander Pozdnyakov <almipo@mail.ru>  - 4.00~git3241-1
 - Compile
 - URL: git://github.com/tesseract-ocr/tesseract.git

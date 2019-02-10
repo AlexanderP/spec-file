@@ -1,3 +1,8 @@
+* Wed Feb 06 2019 Alexander Pozdnyakov <almipo@mail.ru>  - 4.0.0+git3524-1
+- Compile
+- URL: git://github.com/tesseract-ocr/tesseract.git
+- Branch: master
+- Commit: ec8f02c0de853723bbc785c19fc6c96201411c8f
 * Wed Oct 24 2018 Alexander Pozdnyakov <almipo@mail.ru>  - 4.00~git3241-1
 - Compile
 - URL: git://github.com/tesseract-ocr/tesseract.git

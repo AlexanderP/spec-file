@@ -143,7 +143,7 @@ open-sourced by HP and UNLV in 2005.
 %postun -n libtesseract%{major} -p /sbin/ldconfig
 
 %files ocr
-%license COPYING
+%license LICENSE
 %doc AUTHORS ChangeLog README.md test/testing/eurotext.tif test/testing/phototest.tif
 %{_bindir}/ambiguous_words
 %{_bindir}/classifier_tester
@@ -182,7 +182,7 @@ open-sourced by HP and UNLV in 2005.
 %postun -p /sbin/ldconfig
 
 %files
-%license COPYING
+%license LICENSE
 %doc AUTHORS ChangeLog 
 %if 0%{?centos_version} == 700 || 0%{?scientificlinux_version} == 700 || 0%{?rhel_version} == 700
 %if 0%{?rhel_version} != 700
