@@ -1,11 +1,11 @@
 Name:          tesseract
-Version:       4.0.0+git3524
+Version:       4.1.0
 Release:       1%{?dist}
 Summary:       Tesseract command line OCR tool
 
 License:       Apache-2.0
 URL:           https://github.com/tesseract-ocr/%{name}
-Source0:       tesseract_4.0.0+git3524-ec8f02c0.orig.tar.xz
+Source0:       tesseract_4.1.0.orig.tar.xz
 
 Patch0:        helptext.diff
 Patch3:        tesseract_datadir.patch
@@ -16,7 +16,7 @@ BuildRequires: leptonica-devel
 BuildRequires: cairo-devel
 BuildRequires: libicu-devel
 BuildRequires: pango-devel
-BuildRequires: automake libtool autoconf-archive gcc-c++
+BuildRequires: automake libtool autoconf-archive gcc-c++ gdb
 BuildRequires: libxslt-devel git
 %if 0%{?suse_version} > 1130
 BuildRequires: docbook-xsl-stylesheets
@@ -60,7 +60,7 @@ The %{name}-devel package contains header file for
 developing applications that use %{name}.
 
 %prep
-%setup -n tesseract-4.0.0+git3524-ec8f02c0
+%setup -n tesseract-4.1.0~git4026-5280bbca
 %patch0 -p1
 %if 0%{?suse_version} > 1130
 %patch4 -p1
@@ -172,8 +172,6 @@ open-sourced by HP and UNLV in 2005.
 %dir %{_datadir}/%{tessdata}
 %dir %{_datadir}/%{tessdata}/4
 %dir %{_datadir}/%{tessdata}/4/tessdata
-
-
 %{_datadir}/%{tessdata}/4/tessdata/configs/
 %{_datadir}/%{tessdata}/4/tessdata/tessconfigs/
 %{_datadir}/%{tessdata}/4/tessdata/pdf.ttf
@@ -229,6 +227,11 @@ open-sourced by HP and UNLV in 2005.
 
 
 %changelog
+* Mon Jul 08 2019 Alexander Pozdnyakov <almipo@mail.ru>  - 4.1.0-1
+- Compile
+- URL: -b 4.1 git://github.com/tesseract-ocr/tesseract.git
+- Branch: 4.1
+- Commit: 5280bbcade4e2dec5eef439a6e189504c2eadcd9
 * Wed Feb 06 2019 Alexander Pozdnyakov <almipo@mail.ru>  - 4.0.0+git3524-1
 - Compile
 - URL: git://github.com/tesseract-ocr/tesseract.git

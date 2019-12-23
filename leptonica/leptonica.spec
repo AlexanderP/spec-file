@@ -1,5 +1,5 @@
 Name:          leptonica
-Version:       1.76.0
+Version:       1.78.0
 Release:       2.2%{?dist}
 Summary:       C library for efficient image processing and image analysis operations
 
@@ -21,7 +21,7 @@ BuildRequires: libpng-devel
 BuildRequires: libtiff-devel
 BuildRequires: libwebp-devel
 BuildRequires: zlib-devel
-
+BuildRequires: gdb
 # Needed for baseline_reg test
 BuildRequires: gnuplot
 
@@ -133,6 +133,10 @@ make check VERBOSE=1
 
 
 %changelog
+
+* Tue Apr 09 2019 Alexander Pozdnyakov <almipo@mail.ru> - 1.78.0-1
+- Update to 1.78.0
+
 * Sun May 20 2018 Sandro Mani <manisandro@gmail.com> - 1.76.0-1
 - Update to 1.76.0
 

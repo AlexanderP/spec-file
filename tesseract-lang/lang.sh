@@ -27,7 +27,7 @@ Requires:      tesseract-langpack-uzb-cyrl >= 3.99
 %endif"
       ;;
     aze-cyrl)
-      DEPS='%if 0%{?centos_version} == 700 || 0%{?scientificlinux_version} == 700
+      DEPS='%if 0%{?centos_version} == 700 || 0%{?scientificlinux_version} == 700 || 0%{?rhel_version} == 700
 Requires:      tesseract-langpack-aze >= 3.99
 %else
 %if 0%{?suse_version} > 1130
@@ -38,7 +38,7 @@ Suggests:      tesseract-langpack-aze >= 3.99
 %endif'
       ;;
     uzb-cyrl)
-      DEPS='%if 0%{?centos_version} == 700 || 0%{?scientificlinux_version} == 700
+      DEPS='%if 0%{?centos_version} == 700 || 0%{?scientificlinux_version} == 700 || 0%{?rhel_version} == 700
 Requires:      tesseract-langpack-uzb >= 3.99
 %else
 %if 0%{?suse_version} > 1130
@@ -70,7 +70,7 @@ cat >> ${CONTROL} << EOF
 Summary:       Tesseract language files for ${j}
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 $(echo "${DEPS}")
 
 %description -n tesseract-ocr-traineddata-${h}
@@ -90,7 +90,7 @@ needed for processing images in ${j} language.
 Summary:       Tesseract language files for ${j}
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 $(echo "${DEPS}")
 
 %description -n tesseract-langpack-${i}
@@ -118,7 +118,7 @@ cat >> ${CONTROL} << EOF
 Summary:       Tesseract language files for script and orientation
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 %description -n tesseract-ocr-traineddata-orientation_and_script_detection
 Tesseract is an open source Optical Character Recognition (OCR)
@@ -137,7 +137,7 @@ needed for identifying script and orientation.
 Summary:       Tesseract language files for script and orientation
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 %description -n tesseract-langpack-osd
 Tesseract is an open source Optical Character Recognition (OCR)
@@ -164,7 +164,7 @@ cat >> ${CONTROL} << EOF
 Summary:       Tesseract data for ${j} script
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 %description -n tesseract-ocr-traineddata-script-${h}
 Tesseract is an open source Optical Character Recognition (OCR)
@@ -183,7 +183,7 @@ needed for processing images in ${j} script.
 Summary:       Tesseract data for ${j} script
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 %description -n tesseract-script-${i}
 Tesseract is an open source Optical Character Recognition (OCR)

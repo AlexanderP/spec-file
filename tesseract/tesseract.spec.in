@@ -16,7 +16,7 @@ BuildRequires: leptonica-devel
 BuildRequires: cairo-devel
 BuildRequires: libicu-devel
 BuildRequires: pango-devel
-BuildRequires: automake libtool autoconf-archive gcc-c++
+BuildRequires: automake libtool autoconf-archive gcc-c++ gdb
 BuildRequires: libxslt-devel git
 %if 0%{?suse_version} > 1130
 BuildRequires: docbook-xsl-stylesheets

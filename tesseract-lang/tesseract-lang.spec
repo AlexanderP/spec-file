@@ -32,7 +32,7 @@ install -Dpm 0644 script/*.traineddata %{buildroot}/%{_datadir}/%{tessdata}/4/te
 Summary:       Tesseract language files for Greek, Ancient (to 1453)
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-greek_ancient
@@ -52,7 +52,7 @@ needed for processing images in Greek, Ancient (to 1453) language.
 Summary:       Tesseract language files for Greek, Ancient (to 1453)
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-grc
@@ -75,7 +75,7 @@ needed for processing images in Greek, Ancient (to 1453) language.
 Summary:       Tesseract language files for Bulgarian
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-bulgarian
@@ -95,7 +95,7 @@ needed for processing images in Bulgarian language.
 Summary:       Tesseract language files for Bulgarian
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-bul
@@ -118,7 +118,7 @@ needed for processing images in Bulgarian language.
 Summary:       Tesseract language files for Catalan
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-catalan
@@ -138,7 +138,7 @@ needed for processing images in Catalan language.
 Summary:       Tesseract language files for Catalan
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-cat
@@ -161,7 +161,7 @@ needed for processing images in Catalan language.
 Summary:       Tesseract language files for Czech
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-czech
@@ -181,7 +181,7 @@ needed for processing images in Czech language.
 Summary:       Tesseract language files for Czech
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-ces
@@ -204,7 +204,7 @@ needed for processing images in Czech language.
 Summary:       Tesseract language files for Danish
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-danish
@@ -224,7 +224,7 @@ needed for processing images in Danish language.
 Summary:       Tesseract language files for Danish
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-dan
@@ -247,7 +247,7 @@ needed for processing images in Danish language.
 Summary:       Tesseract language files for German
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-german
@@ -267,7 +267,7 @@ needed for processing images in German language.
 Summary:       Tesseract language files for German
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-deu
@@ -290,7 +290,7 @@ needed for processing images in German language.
 Summary:       Tesseract language files for Greek
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-greek
@@ -310,7 +310,7 @@ needed for processing images in Greek language.
 Summary:       Tesseract language files for Greek
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-ell
@@ -333,7 +333,7 @@ needed for processing images in Greek language.
 Summary:       Tesseract language files for English
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+#Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-english
@@ -353,7 +353,7 @@ needed for processing images in English language.
 Summary:       Tesseract language files for English
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+#Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-eng
@@ -376,7 +376,7 @@ needed for processing images in English language.
 Summary:       Tesseract language files for Finnish
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-finnish
@@ -396,7 +396,7 @@ needed for processing images in Finnish language.
 Summary:       Tesseract language files for Finnish
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-fin
@@ -419,7 +419,7 @@ needed for processing images in Finnish language.
 Summary:       Tesseract language files for French
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-french
@@ -439,7 +439,7 @@ needed for processing images in French language.
 Summary:       Tesseract language files for French
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-fra
@@ -462,7 +462,7 @@ needed for processing images in French language.
 Summary:       Tesseract language files for Hungarian
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-hungarian
@@ -482,7 +482,7 @@ needed for processing images in Hungarian language.
 Summary:       Tesseract language files for Hungarian
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-hun
@@ -505,7 +505,7 @@ needed for processing images in Hungarian language.
 Summary:       Tesseract language files for Indonesian
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-indonese
@@ -525,7 +525,7 @@ needed for processing images in Indonesian language.
 Summary:       Tesseract language files for Indonesian
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-ind
@@ -548,7 +548,7 @@ needed for processing images in Indonesian language.
 Summary:       Tesseract language files for Italian
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-italian
@@ -568,7 +568,7 @@ needed for processing images in Italian language.
 Summary:       Tesseract language files for Italian
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-ita
@@ -591,7 +591,7 @@ needed for processing images in Italian language.
 Summary:       Tesseract language files for Latvian
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-latvian
@@ -611,7 +611,7 @@ needed for processing images in Latvian language.
 Summary:       Tesseract language files for Latvian
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-lav
@@ -634,7 +634,7 @@ needed for processing images in Latvian language.
 Summary:       Tesseract language files for Lithuanian
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-lithuanian
@@ -654,7 +654,7 @@ needed for processing images in Lithuanian language.
 Summary:       Tesseract language files for Lithuanian
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-lit
@@ -677,7 +677,7 @@ needed for processing images in Lithuanian language.
 Summary:       Tesseract language files for Dutch
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-dutch
@@ -697,7 +697,7 @@ needed for processing images in Dutch language.
 Summary:       Tesseract language files for Dutch
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-nld
@@ -720,7 +720,7 @@ needed for processing images in Dutch language.
 Summary:       Tesseract language files for Norwegian
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-norwegian
@@ -740,7 +740,7 @@ needed for processing images in Norwegian language.
 Summary:       Tesseract language files for Norwegian
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-nor
@@ -763,7 +763,7 @@ needed for processing images in Norwegian language.
 Summary:       Tesseract language files for Polish
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-polish
@@ -783,7 +783,7 @@ needed for processing images in Polish language.
 Summary:       Tesseract language files for Polish
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-pol
@@ -806,7 +806,7 @@ needed for processing images in Polish language.
 Summary:       Tesseract language files for Portuguese
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-portuguese
@@ -826,7 +826,7 @@ needed for processing images in Portuguese language.
 Summary:       Tesseract language files for Portuguese
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-por
@@ -849,7 +849,7 @@ needed for processing images in Portuguese language.
 Summary:       Tesseract language files for Romanian
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-romanian
@@ -869,7 +869,7 @@ needed for processing images in Romanian language.
 Summary:       Tesseract language files for Romanian
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-ron
@@ -892,7 +892,7 @@ needed for processing images in Romanian language.
 Summary:       Tesseract language files for Russian
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-russian
@@ -912,7 +912,7 @@ needed for processing images in Russian language.
 Summary:       Tesseract language files for Russian
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-rus
@@ -935,7 +935,7 @@ needed for processing images in Russian language.
 Summary:       Tesseract language files for Slovakian
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-slovak
@@ -955,7 +955,7 @@ needed for processing images in Slovakian language.
 Summary:       Tesseract language files for Slovakian
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-slk
@@ -978,7 +978,7 @@ needed for processing images in Slovakian language.
 Summary:       Tesseract language files for Slovenian
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-slovenian
@@ -998,7 +998,7 @@ needed for processing images in Slovenian language.
 Summary:       Tesseract language files for Slovenian
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-slv
@@ -1021,7 +1021,7 @@ needed for processing images in Slovenian language.
 Summary:       Tesseract language files for Spanish
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-spanish
@@ -1041,7 +1041,7 @@ needed for processing images in Spanish language.
 Summary:       Tesseract language files for Spanish
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-spa
@@ -1064,7 +1064,7 @@ needed for processing images in Spanish language.
 Summary:       Tesseract language files for Serbian
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-serbian
@@ -1084,7 +1084,7 @@ needed for processing images in Serbian language.
 Summary:       Tesseract language files for Serbian
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-srp
@@ -1107,7 +1107,7 @@ needed for processing images in Serbian language.
 Summary:       Tesseract language files for Swedish
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-swedish
@@ -1127,7 +1127,7 @@ needed for processing images in Swedish language.
 Summary:       Tesseract language files for Swedish
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-swe
@@ -1150,7 +1150,7 @@ needed for processing images in Swedish language.
 Summary:       Tesseract language files for Turkish
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-turkish
@@ -1170,7 +1170,7 @@ needed for processing images in Turkish language.
 Summary:       Tesseract language files for Turkish
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-tur
@@ -1193,7 +1193,7 @@ needed for processing images in Turkish language.
 Summary:       Tesseract language files for Ukrainian
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-ukrainian
@@ -1213,7 +1213,7 @@ needed for processing images in Ukrainian language.
 Summary:       Tesseract language files for Ukrainian
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-ukr
@@ -1236,7 +1236,7 @@ needed for processing images in Ukrainian language.
 Summary:       Tesseract language files for Vietnamese
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-vietnamese
@@ -1256,7 +1256,7 @@ needed for processing images in Vietnamese language.
 Summary:       Tesseract language files for Vietnamese
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-vie
@@ -1279,7 +1279,7 @@ needed for processing images in Vietnamese language.
 Summary:       Tesseract language files for Chinese - Simplified
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-chinese_simplified
@@ -1299,7 +1299,7 @@ needed for processing images in Chinese - Simplified language.
 Summary:       Tesseract language files for Chinese - Simplified
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-chi-sim
@@ -1322,7 +1322,7 @@ needed for processing images in Chinese - Simplified language.
 Summary:       Tesseract language files for Chinese - Traditional
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-chinese_traditional
@@ -1342,7 +1342,7 @@ needed for processing images in Chinese - Traditional language.
 Summary:       Tesseract language files for Chinese - Traditional
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-chi-tra
@@ -1365,7 +1365,7 @@ needed for processing images in Chinese - Traditional language.
 Summary:       Tesseract language files for Amharic
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-amharic
@@ -1385,7 +1385,7 @@ needed for processing images in Amharic language.
 Summary:       Tesseract language files for Amharic
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-amh
@@ -1408,7 +1408,7 @@ needed for processing images in Amharic language.
 Summary:       Tesseract language files for Assamese
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-assamese
@@ -1428,7 +1428,7 @@ needed for processing images in Assamese language.
 Summary:       Tesseract language files for Assamese
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-asm
@@ -1451,8 +1451,8 @@ needed for processing images in Assamese language.
 Summary:       Tesseract language files for Azerbaijani (Cyrillic)
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
-%if 0%{?centos_version} == 700 || 0%{?scientificlinux_version} == 700
+Requires:      %{tessdata}
+%if 0%{?centos_version} == 700 || 0%{?scientificlinux_version} == 700 || 0%{?rhel_version} == 700
 Requires:      tesseract-langpack-aze >= 3.99
 %else
 %if 0%{?suse_version} > 1130
@@ -1479,8 +1479,8 @@ needed for processing images in Azerbaijani (Cyrillic) language.
 Summary:       Tesseract language files for Azerbaijani (Cyrillic)
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
-%if 0%{?centos_version} == 700 || 0%{?scientificlinux_version} == 700
+Requires:      %{tessdata}
+%if 0%{?centos_version} == 700 || 0%{?scientificlinux_version} == 700 || 0%{?rhel_version} == 700
 Requires:      tesseract-langpack-aze >= 3.99
 %else
 %if 0%{?suse_version} > 1130
@@ -1510,7 +1510,7 @@ needed for processing images in Azerbaijani (Cyrillic) language.
 Summary:       Tesseract language files for Tibetan Standard
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-tibetan_standard
@@ -1530,7 +1530,7 @@ needed for processing images in Tibetan Standard language.
 Summary:       Tesseract language files for Tibetan Standard
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-bod
@@ -1553,7 +1553,7 @@ needed for processing images in Tibetan Standard language.
 Summary:       Tesseract language files for Bosnian
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-bosnian
@@ -1573,7 +1573,7 @@ needed for processing images in Bosnian language.
 Summary:       Tesseract language files for Bosnian
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-bos
@@ -1596,7 +1596,7 @@ needed for processing images in Bosnian language.
 Summary:       Tesseract language files for Cebuano
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-cebuano
@@ -1616,7 +1616,7 @@ needed for processing images in Cebuano language.
 Summary:       Tesseract language files for Cebuano
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-ceb
@@ -1639,7 +1639,7 @@ needed for processing images in Cebuano language.
 Summary:       Tesseract language files for Welsh
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-welsh
@@ -1659,7 +1659,7 @@ needed for processing images in Welsh language.
 Summary:       Tesseract language files for Welsh
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-cym
@@ -1682,7 +1682,7 @@ needed for processing images in Welsh language.
 Summary:       Tesseract language files for Dzongkha
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-dzongkha
@@ -1702,7 +1702,7 @@ needed for processing images in Dzongkha language.
 Summary:       Tesseract language files for Dzongkha
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-dzo
@@ -1725,7 +1725,7 @@ needed for processing images in Dzongkha language.
 Summary:       Tesseract language files for Persian
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-persian
@@ -1745,7 +1745,7 @@ needed for processing images in Persian language.
 Summary:       Tesseract language files for Persian
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-fas
@@ -1768,7 +1768,7 @@ needed for processing images in Persian language.
 Summary:       Tesseract language files for Irish
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-irish
@@ -1788,7 +1788,7 @@ needed for processing images in Irish language.
 Summary:       Tesseract language files for Irish
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-gle
@@ -1811,7 +1811,7 @@ needed for processing images in Irish language.
 Summary:       Tesseract language files for Gujarati
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-gujarati
@@ -1831,7 +1831,7 @@ needed for processing images in Gujarati language.
 Summary:       Tesseract language files for Gujarati
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-guj
@@ -1854,7 +1854,7 @@ needed for processing images in Gujarati language.
 Summary:       Tesseract language files for Haitian
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-haitian
@@ -1874,7 +1874,7 @@ needed for processing images in Haitian language.
 Summary:       Tesseract language files for Haitian
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-hat
@@ -1897,7 +1897,7 @@ needed for processing images in Haitian language.
 Summary:       Tesseract language files for Inuktitut
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-inuktitut
@@ -1917,7 +1917,7 @@ needed for processing images in Inuktitut language.
 Summary:       Tesseract language files for Inuktitut
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-iku
@@ -1940,7 +1940,7 @@ needed for processing images in Inuktitut language.
 Summary:       Tesseract language files for Javanese
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-javanese
@@ -1960,7 +1960,7 @@ needed for processing images in Javanese language.
 Summary:       Tesseract language files for Javanese
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-jav
@@ -1983,7 +1983,7 @@ needed for processing images in Javanese language.
 Summary:       Tesseract language files for Georgian
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-georgian
@@ -2003,7 +2003,7 @@ needed for processing images in Georgian language.
 Summary:       Tesseract language files for Georgian
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-kat
@@ -2026,7 +2026,7 @@ needed for processing images in Georgian language.
 Summary:       Tesseract language files for Old Georgian
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-georgian_old
@@ -2046,7 +2046,7 @@ needed for processing images in Old Georgian language.
 Summary:       Tesseract language files for Old Georgian
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-kat-old
@@ -2069,7 +2069,7 @@ needed for processing images in Old Georgian language.
 Summary:       Tesseract language files for Kazakh
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-kazakh
@@ -2089,7 +2089,7 @@ needed for processing images in Kazakh language.
 Summary:       Tesseract language files for Kazakh
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-kaz
@@ -2112,7 +2112,7 @@ needed for processing images in Kazakh language.
 Summary:       Tesseract language files for Khmer
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-khmer
@@ -2132,7 +2132,7 @@ needed for processing images in Khmer language.
 Summary:       Tesseract language files for Khmer
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-khm
@@ -2155,7 +2155,7 @@ needed for processing images in Khmer language.
 Summary:       Tesseract language files for Kyrgyz
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-kyrgyz
@@ -2175,7 +2175,7 @@ needed for processing images in Kyrgyz language.
 Summary:       Tesseract language files for Kyrgyz
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-kir
@@ -2198,7 +2198,7 @@ needed for processing images in Kyrgyz language.
 Summary:       Tesseract language files for Lao
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-lao
@@ -2218,7 +2218,7 @@ needed for processing images in Lao language.
 Summary:       Tesseract language files for Lao
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-lao
@@ -2241,7 +2241,7 @@ needed for processing images in Lao language.
 Summary:       Tesseract language files for Latin
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-latin
@@ -2261,7 +2261,7 @@ needed for processing images in Latin language.
 Summary:       Tesseract language files for Latin
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-lat
@@ -2284,7 +2284,7 @@ needed for processing images in Latin language.
 Summary:       Tesseract language files for Marathi
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-marathi
@@ -2304,7 +2304,7 @@ needed for processing images in Marathi language.
 Summary:       Tesseract language files for Marathi
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-mar
@@ -2327,7 +2327,7 @@ needed for processing images in Marathi language.
 Summary:       Tesseract language files for Burmese
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-burmese
@@ -2347,7 +2347,7 @@ needed for processing images in Burmese language.
 Summary:       Tesseract language files for Burmese
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-mya
@@ -2370,7 +2370,7 @@ needed for processing images in Burmese language.
 Summary:       Tesseract language files for Nepali
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-nepali
@@ -2390,7 +2390,7 @@ needed for processing images in Nepali language.
 Summary:       Tesseract language files for Nepali
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-nep
@@ -2413,7 +2413,7 @@ needed for processing images in Nepali language.
 Summary:       Tesseract language files for Oriya
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-oriya
@@ -2433,7 +2433,7 @@ needed for processing images in Oriya language.
 Summary:       Tesseract language files for Oriya
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-ori
@@ -2456,7 +2456,7 @@ needed for processing images in Oriya language.
 Summary:       Tesseract language files for Punjabi
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-punjabi
@@ -2476,7 +2476,7 @@ needed for processing images in Punjabi language.
 Summary:       Tesseract language files for Punjabi
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-pan
@@ -2499,7 +2499,7 @@ needed for processing images in Punjabi language.
 Summary:       Tesseract language files for Pashto
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-pashto
@@ -2519,7 +2519,7 @@ needed for processing images in Pashto language.
 Summary:       Tesseract language files for Pashto
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-pus
@@ -2542,7 +2542,7 @@ needed for processing images in Pashto language.
 Summary:       Tesseract language files for Sanskrit
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-sanskrit
@@ -2562,7 +2562,7 @@ needed for processing images in Sanskrit language.
 Summary:       Tesseract language files for Sanskrit
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-san
@@ -2585,7 +2585,7 @@ needed for processing images in Sanskrit language.
 Summary:       Tesseract language files for Sinhala
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-sinhala
@@ -2605,7 +2605,7 @@ needed for processing images in Sinhala language.
 Summary:       Tesseract language files for Sinhala
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-sin
@@ -2628,7 +2628,7 @@ needed for processing images in Sinhala language.
 Summary:       Tesseract language files for Serbian (Latin)
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 %if 0%{?suse_version} > 1130
 Requires:      tesseract-ocr-traineddata-serbian >= 3.99
 %else
@@ -2652,7 +2652,7 @@ needed for processing images in Serbian (Latin) language.
 Summary:       Tesseract language files for Serbian (Latin)
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 %if 0%{?suse_version} > 1130
 Requires:      tesseract-ocr-traineddata-serbian >= 3.99
 %else
@@ -2679,7 +2679,7 @@ needed for processing images in Serbian (Latin) language.
 Summary:       Tesseract language files for Syriac
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-syriac
@@ -2699,7 +2699,7 @@ needed for processing images in Syriac language.
 Summary:       Tesseract language files for Syriac
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-syr
@@ -2722,7 +2722,7 @@ needed for processing images in Syriac language.
 Summary:       Tesseract language files for Tajik
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-tajik
@@ -2742,7 +2742,7 @@ needed for processing images in Tajik language.
 Summary:       Tesseract language files for Tajik
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-tgk
@@ -2765,7 +2765,7 @@ needed for processing images in Tajik language.
 Summary:       Tesseract language files for Tigrinya
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-tigrinya
@@ -2785,7 +2785,7 @@ needed for processing images in Tigrinya language.
 Summary:       Tesseract language files for Tigrinya
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-tir
@@ -2808,7 +2808,7 @@ needed for processing images in Tigrinya language.
 Summary:       Tesseract language files for Uyghur
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-uyghur
@@ -2828,7 +2828,7 @@ needed for processing images in Uyghur language.
 Summary:       Tesseract language files for Uyghur
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-uig
@@ -2851,7 +2851,7 @@ needed for processing images in Uyghur language.
 Summary:       Tesseract language files for Urdu
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-urdu
@@ -2871,7 +2871,7 @@ needed for processing images in Urdu language.
 Summary:       Tesseract language files for Urdu
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-urd
@@ -2894,7 +2894,7 @@ needed for processing images in Urdu language.
 Summary:       Tesseract language files for Uzbek
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 %if 0%{?suse_version} > 1130
 Requires:      tesseract-ocr-traineddata-uzbek_cyrillic >= 3.99
 %else
@@ -2918,7 +2918,7 @@ needed for processing images in Uzbek language.
 Summary:       Tesseract language files for Uzbek
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 %if 0%{?suse_version} > 1130
 Requires:      tesseract-ocr-traineddata-uzbek_cyrillic >= 3.99
 %else
@@ -2945,8 +2945,8 @@ needed for processing images in Uzbek language.
 Summary:       Tesseract language files for Uzbek (Cyrillic)
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
-%if 0%{?centos_version} == 700 || 0%{?scientificlinux_version} == 700
+Requires:      %{tessdata}
+%if 0%{?centos_version} == 700 || 0%{?scientificlinux_version} == 700 || 0%{?rhel_version} == 700
 Requires:      tesseract-langpack-uzb >= 3.99
 %else
 %if 0%{?suse_version} > 1130
@@ -2973,8 +2973,8 @@ needed for processing images in Uzbek (Cyrillic) language.
 Summary:       Tesseract language files for Uzbek (Cyrillic)
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
-%if 0%{?centos_version} == 700 || 0%{?scientificlinux_version} == 700
+Requires:      %{tessdata}
+%if 0%{?centos_version} == 700 || 0%{?scientificlinux_version} == 700 || 0%{?rhel_version} == 700
 Requires:      tesseract-langpack-uzb >= 3.99
 %else
 %if 0%{?suse_version} > 1130
@@ -3004,7 +3004,7 @@ needed for processing images in Uzbek (Cyrillic) language.
 Summary:       Tesseract language files for Yiddish
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-yiddish
@@ -3024,7 +3024,7 @@ needed for processing images in Yiddish language.
 Summary:       Tesseract language files for Yiddish
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-yid
@@ -3047,7 +3047,7 @@ needed for processing images in Yiddish language.
 Summary:       Tesseract language files for Afrikaans
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-afrikaans
@@ -3067,7 +3067,7 @@ needed for processing images in Afrikaans language.
 Summary:       Tesseract language files for Afrikaans
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-afr
@@ -3090,7 +3090,7 @@ needed for processing images in Afrikaans language.
 Summary:       Tesseract language files for Arabic
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-arabic
@@ -3110,7 +3110,7 @@ needed for processing images in Arabic language.
 Summary:       Tesseract language files for Arabic
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-ara
@@ -3133,7 +3133,7 @@ needed for processing images in Arabic language.
 Summary:       Tesseract language files for Azerbaijani
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 %if 0%{?suse_version} > 1130
 Requires:      tesseract-ocr-traineddata-azerbaijani_cyrillic >= 3.99
 %else
@@ -3157,7 +3157,7 @@ needed for processing images in Azerbaijani language.
 Summary:       Tesseract language files for Azerbaijani
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 %if 0%{?suse_version} > 1130
 Requires:      tesseract-ocr-traineddata-azerbaijani_cyrillic >= 3.99
 %else
@@ -3184,7 +3184,7 @@ needed for processing images in Azerbaijani language.
 Summary:       Tesseract language files for Belarusian
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-belarusian
@@ -3204,7 +3204,7 @@ needed for processing images in Belarusian language.
 Summary:       Tesseract language files for Belarusian
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-bel
@@ -3227,7 +3227,7 @@ needed for processing images in Belarusian language.
 Summary:       Tesseract language files for Bengali
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-bengali
@@ -3247,7 +3247,7 @@ needed for processing images in Bengali language.
 Summary:       Tesseract language files for Bengali
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-ben
@@ -3270,7 +3270,7 @@ needed for processing images in Bengali language.
 Summary:       Tesseract language files for Cherokee
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-cherokee
@@ -3290,7 +3290,7 @@ needed for processing images in Cherokee language.
 Summary:       Tesseract language files for Cherokee
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-chr
@@ -3313,7 +3313,7 @@ needed for processing images in Cherokee language.
 Summary:       Tesseract language files for English, Middle (1100-1500)
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-english_middle
@@ -3333,7 +3333,7 @@ needed for processing images in English, Middle (1100-1500) language.
 Summary:       Tesseract language files for English, Middle (1100-1500)
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-enm
@@ -3356,7 +3356,7 @@ needed for processing images in English, Middle (1100-1500) language.
 Summary:       Tesseract language files for Esperanto
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-esperanto
@@ -3376,7 +3376,7 @@ needed for processing images in Esperanto language.
 Summary:       Tesseract language files for Esperanto
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-epo
@@ -3399,7 +3399,7 @@ needed for processing images in Esperanto language.
 Summary:       Tesseract language files for Estonian
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-estonian
@@ -3419,7 +3419,7 @@ needed for processing images in Estonian language.
 Summary:       Tesseract language files for Estonian
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-est
@@ -3442,7 +3442,7 @@ needed for processing images in Estonian language.
 Summary:       Tesseract language files for Basque
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-basque
@@ -3462,7 +3462,7 @@ needed for processing images in Basque language.
 Summary:       Tesseract language files for Basque
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-eus
@@ -3485,7 +3485,7 @@ needed for processing images in Basque language.
 Summary:       Tesseract language files for German (Fraktur)
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-german_fraktur
@@ -3505,7 +3505,7 @@ needed for processing images in German (Fraktur) language.
 Summary:       Tesseract language files for German (Fraktur)
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-frk
@@ -3528,7 +3528,7 @@ needed for processing images in German (Fraktur) language.
 Summary:       Tesseract language files for French, Middle (ca.1400-1600)
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-french_middle
@@ -3548,7 +3548,7 @@ needed for processing images in French, Middle (ca.1400-1600) language.
 Summary:       Tesseract language files for French, Middle (ca.1400-1600)
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-frm
@@ -3571,7 +3571,7 @@ needed for processing images in French, Middle (ca.1400-1600) language.
 Summary:       Tesseract language files for Galician
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-galician
@@ -3591,7 +3591,7 @@ needed for processing images in Galician language.
 Summary:       Tesseract language files for Galician
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-glg
@@ -3614,7 +3614,7 @@ needed for processing images in Galician language.
 Summary:       Tesseract language files for Hebrew
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-hebrew
@@ -3634,7 +3634,7 @@ needed for processing images in Hebrew language.
 Summary:       Tesseract language files for Hebrew
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-heb
@@ -3657,7 +3657,7 @@ needed for processing images in Hebrew language.
 Summary:       Tesseract language files for Hindi
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-hindi
@@ -3677,7 +3677,7 @@ needed for processing images in Hindi language.
 Summary:       Tesseract language files for Hindi
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-hin
@@ -3700,7 +3700,7 @@ needed for processing images in Hindi language.
 Summary:       Tesseract language files for Croatian
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-croatian
@@ -3720,7 +3720,7 @@ needed for processing images in Croatian language.
 Summary:       Tesseract language files for Croatian
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-hrv
@@ -3743,7 +3743,7 @@ needed for processing images in Croatian language.
 Summary:       Tesseract language files for Icelandic
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-icelandic
@@ -3763,7 +3763,7 @@ needed for processing images in Icelandic language.
 Summary:       Tesseract language files for Icelandic
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-isl
@@ -3786,7 +3786,7 @@ needed for processing images in Icelandic language.
 Summary:       Tesseract language files for Italian - Old
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-italian_old
@@ -3806,7 +3806,7 @@ needed for processing images in Italian - Old language.
 Summary:       Tesseract language files for Italian - Old
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-ita-old
@@ -3829,7 +3829,7 @@ needed for processing images in Italian - Old language.
 Summary:       Tesseract language files for Japanese
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-japanese
@@ -3849,7 +3849,7 @@ needed for processing images in Japanese language.
 Summary:       Tesseract language files for Japanese
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-jpn
@@ -3872,7 +3872,7 @@ needed for processing images in Japanese language.
 Summary:       Tesseract language files for Kannada
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-kannada
@@ -3892,7 +3892,7 @@ needed for processing images in Kannada language.
 Summary:       Tesseract language files for Kannada
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-kan
@@ -3915,7 +3915,7 @@ needed for processing images in Kannada language.
 Summary:       Tesseract language files for Korean
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-korean
@@ -3935,7 +3935,7 @@ needed for processing images in Korean language.
 Summary:       Tesseract language files for Korean
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-kor
@@ -3958,7 +3958,7 @@ needed for processing images in Korean language.
 Summary:       Tesseract language files for Malayalam
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-malayalam
@@ -3978,7 +3978,7 @@ needed for processing images in Malayalam language.
 Summary:       Tesseract language files for Malayalam
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-mal
@@ -4001,7 +4001,7 @@ needed for processing images in Malayalam language.
 Summary:       Tesseract language files for Macedonian
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-macedonian
@@ -4021,7 +4021,7 @@ needed for processing images in Macedonian language.
 Summary:       Tesseract language files for Macedonian
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-mkd
@@ -4044,7 +4044,7 @@ needed for processing images in Macedonian language.
 Summary:       Tesseract language files for Maltese
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-maltese
@@ -4064,7 +4064,7 @@ needed for processing images in Maltese language.
 Summary:       Tesseract language files for Maltese
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-mlt
@@ -4087,7 +4087,7 @@ needed for processing images in Maltese language.
 Summary:       Tesseract language files for Malay
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-malay
@@ -4107,7 +4107,7 @@ needed for processing images in Malay language.
 Summary:       Tesseract language files for Malay
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-msa
@@ -4130,7 +4130,7 @@ needed for processing images in Malay language.
 Summary:       Tesseract language files for Spanish, Castilian - Old
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-spanish_old
@@ -4150,7 +4150,7 @@ needed for processing images in Spanish, Castilian - Old language.
 Summary:       Tesseract language files for Spanish, Castilian - Old
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-spa-old
@@ -4173,7 +4173,7 @@ needed for processing images in Spanish, Castilian - Old language.
 Summary:       Tesseract language files for Albanian
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-albanian
@@ -4193,7 +4193,7 @@ needed for processing images in Albanian language.
 Summary:       Tesseract language files for Albanian
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-sqi
@@ -4216,7 +4216,7 @@ needed for processing images in Albanian language.
 Summary:       Tesseract language files for Swahili
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-swahili
@@ -4236,7 +4236,7 @@ needed for processing images in Swahili language.
 Summary:       Tesseract language files for Swahili
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-swa
@@ -4259,7 +4259,7 @@ needed for processing images in Swahili language.
 Summary:       Tesseract language files for Tamil
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-tamil
@@ -4279,7 +4279,7 @@ needed for processing images in Tamil language.
 Summary:       Tesseract language files for Tamil
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-tam
@@ -4302,7 +4302,7 @@ needed for processing images in Tamil language.
 Summary:       Tesseract language files for Telugu
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-telugu
@@ -4322,7 +4322,7 @@ needed for processing images in Telugu language.
 Summary:       Tesseract language files for Telugu
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-tel
@@ -4345,7 +4345,7 @@ needed for processing images in Telugu language.
 Summary:       Tesseract language files for Thai
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-thai
@@ -4365,7 +4365,7 @@ needed for processing images in Thai language.
 Summary:       Tesseract language files for Thai
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-tha
@@ -4388,7 +4388,7 @@ needed for processing images in Thai language.
 Summary:       Tesseract language files for Breton
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-breton
@@ -4408,7 +4408,7 @@ needed for processing images in Breton language.
 Summary:       Tesseract language files for Breton
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-bre
@@ -4431,7 +4431,7 @@ needed for processing images in Breton language.
 Summary:       Tesseract language files for Chinese - Simplified (vertical)
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-chinese_simplified_vert
@@ -4451,7 +4451,7 @@ needed for processing images in Chinese - Simplified (vertical) language.
 Summary:       Tesseract language files for Chinese - Simplified (vertical)
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-chi-sim-vert
@@ -4474,7 +4474,7 @@ needed for processing images in Chinese - Simplified (vertical) language.
 Summary:       Tesseract language files for Chinese - Traditional (vertical)
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-chinese_traditional_vert
@@ -4494,7 +4494,7 @@ needed for processing images in Chinese - Traditional (vertical) language.
 Summary:       Tesseract language files for Chinese - Traditional (vertical)
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-chi-tra-vert
@@ -4517,7 +4517,7 @@ needed for processing images in Chinese - Traditional (vertical) language.
 Summary:       Tesseract language files for Corsican
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-corsican
@@ -4537,7 +4537,7 @@ needed for processing images in Corsican language.
 Summary:       Tesseract language files for Corsican
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-cos
@@ -4560,7 +4560,7 @@ needed for processing images in Corsican language.
 Summary:       Tesseract language files for Divehi
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-divehi
@@ -4580,7 +4580,7 @@ needed for processing images in Divehi language.
 Summary:       Tesseract language files for Divehi
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-div
@@ -4603,7 +4603,7 @@ needed for processing images in Divehi language.
 Summary:       Tesseract language files for Faroese
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-faroese
@@ -4623,7 +4623,7 @@ needed for processing images in Faroese language.
 Summary:       Tesseract language files for Faroese
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-fao
@@ -4646,7 +4646,7 @@ needed for processing images in Faroese language.
 Summary:       Tesseract language files for Filipino
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-filipino
@@ -4666,7 +4666,7 @@ needed for processing images in Filipino language.
 Summary:       Tesseract language files for Filipino
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-fil
@@ -4689,7 +4689,7 @@ needed for processing images in Filipino language.
 Summary:       Tesseract language files for Frisian (Western)
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-frisian_western
@@ -4709,7 +4709,7 @@ needed for processing images in Frisian (Western) language.
 Summary:       Tesseract language files for Frisian (Western)
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-fry
@@ -4732,7 +4732,7 @@ needed for processing images in Frisian (Western) language.
 Summary:       Tesseract language files for Gaelic (Scots)
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-gaelic_scots
@@ -4752,7 +4752,7 @@ needed for processing images in Gaelic (Scots) language.
 Summary:       Tesseract language files for Gaelic (Scots)
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-gla
@@ -4775,7 +4775,7 @@ needed for processing images in Gaelic (Scots) language.
 Summary:       Tesseract language files for Armenian
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-armenian
@@ -4795,7 +4795,7 @@ needed for processing images in Armenian language.
 Summary:       Tesseract language files for Armenian
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-hye
@@ -4818,7 +4818,7 @@ needed for processing images in Armenian language.
 Summary:       Tesseract language files for Japanese (vertical)
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-japanese_vert
@@ -4838,7 +4838,7 @@ needed for processing images in Japanese (vertical) language.
 Summary:       Tesseract language files for Japanese (vertical)
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-jpn-vert
@@ -4861,7 +4861,7 @@ needed for processing images in Japanese (vertical) language.
 Summary:       Tesseract language files for Korean (vertical)
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-korean_vert
@@ -4881,7 +4881,7 @@ needed for processing images in Korean (vertical) language.
 Summary:       Tesseract language files for Korean (vertical)
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-kor-vert
@@ -4904,7 +4904,7 @@ needed for processing images in Korean (vertical) language.
 Summary:       Tesseract language files for Kurmanji (Latin)
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-kurmanji_latin
@@ -4924,7 +4924,7 @@ needed for processing images in Kurmanji (Latin) language.
 Summary:       Tesseract language files for Kurmanji (Latin)
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-kmr
@@ -4947,7 +4947,7 @@ needed for processing images in Kurmanji (Latin) language.
 Summary:       Tesseract language files for Luxembourgish
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-luxembourgish
@@ -4967,7 +4967,7 @@ needed for processing images in Luxembourgish language.
 Summary:       Tesseract language files for Luxembourgish
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-ltz
@@ -4990,7 +4990,7 @@ needed for processing images in Luxembourgish language.
 Summary:       Tesseract language files for Mongolian
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-mongolian
@@ -5010,7 +5010,7 @@ needed for processing images in Mongolian language.
 Summary:       Tesseract language files for Mongolian
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-mon
@@ -5033,7 +5033,7 @@ needed for processing images in Mongolian language.
 Summary:       Tesseract language files for Maori
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-maori
@@ -5053,7 +5053,7 @@ needed for processing images in Maori language.
 Summary:       Tesseract language files for Maori
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-mri
@@ -5076,7 +5076,7 @@ needed for processing images in Maori language.
 Summary:       Tesseract language files for Occitan (post 1500)
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-occitan
@@ -5096,7 +5096,7 @@ needed for processing images in Occitan (post 1500) language.
 Summary:       Tesseract language files for Occitan (post 1500)
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-oci
@@ -5119,7 +5119,7 @@ needed for processing images in Occitan (post 1500) language.
 Summary:       Tesseract language files for Quechua
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-quechua
@@ -5139,7 +5139,7 @@ needed for processing images in Quechua language.
 Summary:       Tesseract language files for Quechua
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-que
@@ -5162,7 +5162,7 @@ needed for processing images in Quechua language.
 Summary:       Tesseract language files for Sindhi
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-sindhi
@@ -5182,7 +5182,7 @@ needed for processing images in Sindhi language.
 Summary:       Tesseract language files for Sindhi
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-snd
@@ -5205,7 +5205,7 @@ needed for processing images in Sindhi language.
 Summary:       Tesseract language files for Sundanese
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-sundanese
@@ -5225,7 +5225,7 @@ needed for processing images in Sundanese language.
 Summary:       Tesseract language files for Sundanese
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-sun
@@ -5248,7 +5248,7 @@ needed for processing images in Sundanese language.
 Summary:       Tesseract language files for Tatar
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-tatar
@@ -5268,7 +5268,7 @@ needed for processing images in Tatar language.
 Summary:       Tesseract language files for Tatar
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-tat
@@ -5291,7 +5291,7 @@ needed for processing images in Tatar language.
 Summary:       Tesseract language files for Tonga
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-tonga
@@ -5311,7 +5311,7 @@ needed for processing images in Tonga language.
 Summary:       Tesseract language files for Tonga
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-ton
@@ -5334,7 +5334,7 @@ needed for processing images in Tonga language.
 Summary:       Tesseract language files for Yoruba
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-ocr-traineddata-yoruba
@@ -5354,7 +5354,7 @@ needed for processing images in Yoruba language.
 Summary:       Tesseract language files for Yoruba
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 
 %description -n tesseract-langpack-yor
@@ -5377,7 +5377,7 @@ needed for processing images in Yoruba language.
 Summary:       Tesseract language files for script and orientation
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 %description -n tesseract-ocr-traineddata-orientation_and_script_detection
 Tesseract is an open source Optical Character Recognition (OCR)
@@ -5396,7 +5396,7 @@ needed for identifying script and orientation.
 Summary:       Tesseract language files for script and orientation
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 %description -n tesseract-langpack-osd
 Tesseract is an open source Optical Character Recognition (OCR)
@@ -5417,7 +5417,7 @@ needed for identifying script and orientation.
 Summary:       Tesseract data for Arabic script
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 %description -n tesseract-ocr-traineddata-script-arabic
 Tesseract is an open source Optical Character Recognition (OCR)
@@ -5436,7 +5436,7 @@ needed for processing images in Arabic script.
 Summary:       Tesseract data for Arabic script
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 %description -n tesseract-script-arab
 Tesseract is an open source Optical Character Recognition (OCR)
@@ -5457,7 +5457,7 @@ needed for processing images in Arabic script.
 Summary:       Tesseract data for Armenian script
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 %description -n tesseract-ocr-traineddata-script-armenian
 Tesseract is an open source Optical Character Recognition (OCR)
@@ -5476,7 +5476,7 @@ needed for processing images in Armenian script.
 Summary:       Tesseract data for Armenian script
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 %description -n tesseract-script-armn
 Tesseract is an open source Optical Character Recognition (OCR)
@@ -5497,7 +5497,7 @@ needed for processing images in Armenian script.
 Summary:       Tesseract data for Bengali script
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 %description -n tesseract-ocr-traineddata-script-bengali
 Tesseract is an open source Optical Character Recognition (OCR)
@@ -5516,7 +5516,7 @@ needed for processing images in Bengali script.
 Summary:       Tesseract data for Bengali script
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 %description -n tesseract-script-beng
 Tesseract is an open source Optical Character Recognition (OCR)
@@ -5537,7 +5537,7 @@ needed for processing images in Bengali script.
 Summary:       Tesseract data for Canadian Aboriginal script
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 %description -n tesseract-ocr-traineddata-script-canadian_aboriginal
 Tesseract is an open source Optical Character Recognition (OCR)
@@ -5556,7 +5556,7 @@ needed for processing images in Canadian Aboriginal script.
 Summary:       Tesseract data for Canadian Aboriginal script
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 %description -n tesseract-script-cans
 Tesseract is an open source Optical Character Recognition (OCR)
@@ -5577,7 +5577,7 @@ needed for processing images in Canadian Aboriginal script.
 Summary:       Tesseract data for Cherokee script
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 %description -n tesseract-ocr-traineddata-script-cherokee
 Tesseract is an open source Optical Character Recognition (OCR)
@@ -5596,7 +5596,7 @@ needed for processing images in Cherokee script.
 Summary:       Tesseract data for Cherokee script
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 %description -n tesseract-script-cher
 Tesseract is an open source Optical Character Recognition (OCR)
@@ -5617,7 +5617,7 @@ needed for processing images in Cherokee script.
 Summary:       Tesseract data for Cyrillic script
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 %description -n tesseract-ocr-traineddata-script-cyrillic
 Tesseract is an open source Optical Character Recognition (OCR)
@@ -5636,7 +5636,7 @@ needed for processing images in Cyrillic script.
 Summary:       Tesseract data for Cyrillic script
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 %description -n tesseract-script-cyrl
 Tesseract is an open source Optical Character Recognition (OCR)
@@ -5657,7 +5657,7 @@ needed for processing images in Cyrillic script.
 Summary:       Tesseract data for Devanagari script
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 %description -n tesseract-ocr-traineddata-script-devanagari
 Tesseract is an open source Optical Character Recognition (OCR)
@@ -5676,7 +5676,7 @@ needed for processing images in Devanagari script.
 Summary:       Tesseract data for Devanagari script
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 %description -n tesseract-script-deva
 Tesseract is an open source Optical Character Recognition (OCR)
@@ -5697,7 +5697,7 @@ needed for processing images in Devanagari script.
 Summary:       Tesseract data for Ethiopic script
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 %description -n tesseract-ocr-traineddata-script-ethiopic
 Tesseract is an open source Optical Character Recognition (OCR)
@@ -5716,7 +5716,7 @@ needed for processing images in Ethiopic script.
 Summary:       Tesseract data for Ethiopic script
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 %description -n tesseract-script-ethi
 Tesseract is an open source Optical Character Recognition (OCR)
@@ -5737,7 +5737,7 @@ needed for processing images in Ethiopic script.
 Summary:       Tesseract data for Fraktur script
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 %description -n tesseract-ocr-traineddata-script-fraktur
 Tesseract is an open source Optical Character Recognition (OCR)
@@ -5756,7 +5756,7 @@ needed for processing images in Fraktur script.
 Summary:       Tesseract data for Fraktur script
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 %description -n tesseract-script-frak
 Tesseract is an open source Optical Character Recognition (OCR)
@@ -5777,7 +5777,7 @@ needed for processing images in Fraktur script.
 Summary:       Tesseract data for Georgian script
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 %description -n tesseract-ocr-traineddata-script-georgian
 Tesseract is an open source Optical Character Recognition (OCR)
@@ -5796,7 +5796,7 @@ needed for processing images in Georgian script.
 Summary:       Tesseract data for Georgian script
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 %description -n tesseract-script-geor
 Tesseract is an open source Optical Character Recognition (OCR)
@@ -5817,7 +5817,7 @@ needed for processing images in Georgian script.
 Summary:       Tesseract data for Greek script
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 %description -n tesseract-ocr-traineddata-script-greek
 Tesseract is an open source Optical Character Recognition (OCR)
@@ -5836,7 +5836,7 @@ needed for processing images in Greek script.
 Summary:       Tesseract data for Greek script
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 %description -n tesseract-script-grek
 Tesseract is an open source Optical Character Recognition (OCR)
@@ -5857,7 +5857,7 @@ needed for processing images in Greek script.
 Summary:       Tesseract data for Gujarati script
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 %description -n tesseract-ocr-traineddata-script-gujarati
 Tesseract is an open source Optical Character Recognition (OCR)
@@ -5876,7 +5876,7 @@ needed for processing images in Gujarati script.
 Summary:       Tesseract data for Gujarati script
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 %description -n tesseract-script-gujr
 Tesseract is an open source Optical Character Recognition (OCR)
@@ -5897,7 +5897,7 @@ needed for processing images in Gujarati script.
 Summary:       Tesseract data for Gurmukhi script
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 %description -n tesseract-ocr-traineddata-script-gurmukhi
 Tesseract is an open source Optical Character Recognition (OCR)
@@ -5916,7 +5916,7 @@ needed for processing images in Gurmukhi script.
 Summary:       Tesseract data for Gurmukhi script
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 %description -n tesseract-script-guru
 Tesseract is an open source Optical Character Recognition (OCR)
@@ -5937,7 +5937,7 @@ needed for processing images in Gurmukhi script.
 Summary:       Tesseract data for Han - Simplified script
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 %description -n tesseract-ocr-traineddata-script-han_simplified
 Tesseract is an open source Optical Character Recognition (OCR)
@@ -5956,7 +5956,7 @@ needed for processing images in Han - Simplified script.
 Summary:       Tesseract data for Han - Simplified script
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 %description -n tesseract-script-hans
 Tesseract is an open source Optical Character Recognition (OCR)
@@ -5977,7 +5977,7 @@ needed for processing images in Han - Simplified script.
 Summary:       Tesseract data for Han - Simplified (vertical) script
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 %description -n tesseract-ocr-traineddata-script-han_simplified_vert
 Tesseract is an open source Optical Character Recognition (OCR)
@@ -5996,7 +5996,7 @@ needed for processing images in Han - Simplified (vertical) script.
 Summary:       Tesseract data for Han - Simplified (vertical) script
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 %description -n tesseract-script-hans-vert
 Tesseract is an open source Optical Character Recognition (OCR)
@@ -6017,7 +6017,7 @@ needed for processing images in Han - Simplified (vertical) script.
 Summary:       Tesseract data for Han - Traditional script
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 %description -n tesseract-ocr-traineddata-script-han_traditional
 Tesseract is an open source Optical Character Recognition (OCR)
@@ -6036,7 +6036,7 @@ needed for processing images in Han - Traditional script.
 Summary:       Tesseract data for Han - Traditional script
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 %description -n tesseract-script-hant
 Tesseract is an open source Optical Character Recognition (OCR)
@@ -6057,7 +6057,7 @@ needed for processing images in Han - Traditional script.
 Summary:       Tesseract data for Han - Traditional (vertical) script
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 %description -n tesseract-ocr-traineddata-script-han_traditional_vert
 Tesseract is an open source Optical Character Recognition (OCR)
@@ -6076,7 +6076,7 @@ needed for processing images in Han - Traditional (vertical) script.
 Summary:       Tesseract data for Han - Traditional (vertical) script
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 %description -n tesseract-script-hant-vert
 Tesseract is an open source Optical Character Recognition (OCR)
@@ -6097,7 +6097,7 @@ needed for processing images in Han - Traditional (vertical) script.
 Summary:       Tesseract data for Hangul script
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 %description -n tesseract-ocr-traineddata-script-hangul
 Tesseract is an open source Optical Character Recognition (OCR)
@@ -6116,7 +6116,7 @@ needed for processing images in Hangul script.
 Summary:       Tesseract data for Hangul script
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 %description -n tesseract-script-hang
 Tesseract is an open source Optical Character Recognition (OCR)
@@ -6137,7 +6137,7 @@ needed for processing images in Hangul script.
 Summary:       Tesseract data for Hangul (vertical) script
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 %description -n tesseract-ocr-traineddata-script-hangul_vert
 Tesseract is an open source Optical Character Recognition (OCR)
@@ -6156,7 +6156,7 @@ needed for processing images in Hangul (vertical) script.
 Summary:       Tesseract data for Hangul (vertical) script
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 %description -n tesseract-script-hang-vert
 Tesseract is an open source Optical Character Recognition (OCR)
@@ -6177,7 +6177,7 @@ needed for processing images in Hangul (vertical) script.
 Summary:       Tesseract data for Hebrew script
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 %description -n tesseract-ocr-traineddata-script-hebrew
 Tesseract is an open source Optical Character Recognition (OCR)
@@ -6196,7 +6196,7 @@ needed for processing images in Hebrew script.
 Summary:       Tesseract data for Hebrew script
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 %description -n tesseract-script-hebr
 Tesseract is an open source Optical Character Recognition (OCR)
@@ -6217,7 +6217,7 @@ needed for processing images in Hebrew script.
 Summary:       Tesseract data for Japanese script
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 %description -n tesseract-ocr-traineddata-script-japanese
 Tesseract is an open source Optical Character Recognition (OCR)
@@ -6236,7 +6236,7 @@ needed for processing images in Japanese script.
 Summary:       Tesseract data for Japanese script
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 %description -n tesseract-script-jpan
 Tesseract is an open source Optical Character Recognition (OCR)
@@ -6257,7 +6257,7 @@ needed for processing images in Japanese script.
 Summary:       Tesseract data for Japanese (vertical) script
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 %description -n tesseract-ocr-traineddata-script-japanese_vert
 Tesseract is an open source Optical Character Recognition (OCR)
@@ -6276,7 +6276,7 @@ needed for processing images in Japanese (vertical) script.
 Summary:       Tesseract data for Japanese (vertical) script
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 %description -n tesseract-script-jpan-vert
 Tesseract is an open source Optical Character Recognition (OCR)
@@ -6297,7 +6297,7 @@ needed for processing images in Japanese (vertical) script.
 Summary:       Tesseract data for Kannada script
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 %description -n tesseract-ocr-traineddata-script-kannada
 Tesseract is an open source Optical Character Recognition (OCR)
@@ -6316,7 +6316,7 @@ needed for processing images in Kannada script.
 Summary:       Tesseract data for Kannada script
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 %description -n tesseract-script-knda
 Tesseract is an open source Optical Character Recognition (OCR)
@@ -6337,7 +6337,7 @@ needed for processing images in Kannada script.
 Summary:       Tesseract data for Khmer script
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 %description -n tesseract-ocr-traineddata-script-khmer
 Tesseract is an open source Optical Character Recognition (OCR)
@@ -6356,7 +6356,7 @@ needed for processing images in Khmer script.
 Summary:       Tesseract data for Khmer script
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 %description -n tesseract-script-khmr
 Tesseract is an open source Optical Character Recognition (OCR)
@@ -6377,7 +6377,7 @@ needed for processing images in Khmer script.
 Summary:       Tesseract data for Lao script
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 %description -n tesseract-ocr-traineddata-script-lao
 Tesseract is an open source Optical Character Recognition (OCR)
@@ -6396,7 +6396,7 @@ needed for processing images in Lao script.
 Summary:       Tesseract data for Lao script
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 %description -n tesseract-script-laoo
 Tesseract is an open source Optical Character Recognition (OCR)
@@ -6417,7 +6417,7 @@ needed for processing images in Lao script.
 Summary:       Tesseract data for Latin script
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 %description -n tesseract-ocr-traineddata-script-latin
 Tesseract is an open source Optical Character Recognition (OCR)
@@ -6436,7 +6436,7 @@ needed for processing images in Latin script.
 Summary:       Tesseract data for Latin script
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 %description -n tesseract-script-latn
 Tesseract is an open source Optical Character Recognition (OCR)
@@ -6457,7 +6457,7 @@ needed for processing images in Latin script.
 Summary:       Tesseract data for Malayalam script
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 %description -n tesseract-ocr-traineddata-script-malayalam
 Tesseract is an open source Optical Character Recognition (OCR)
@@ -6476,7 +6476,7 @@ needed for processing images in Malayalam script.
 Summary:       Tesseract data for Malayalam script
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 %description -n tesseract-script-mlym
 Tesseract is an open source Optical Character Recognition (OCR)
@@ -6497,7 +6497,7 @@ needed for processing images in Malayalam script.
 Summary:       Tesseract data for Myanmar script
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 %description -n tesseract-ocr-traineddata-script-myanmar
 Tesseract is an open source Optical Character Recognition (OCR)
@@ -6516,7 +6516,7 @@ needed for processing images in Myanmar script.
 Summary:       Tesseract data for Myanmar script
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 %description -n tesseract-script-mymr
 Tesseract is an open source Optical Character Recognition (OCR)
@@ -6537,7 +6537,7 @@ needed for processing images in Myanmar script.
 Summary:       Tesseract data for Oriya (Odia) script
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 %description -n tesseract-ocr-traineddata-script-oriya
 Tesseract is an open source Optical Character Recognition (OCR)
@@ -6556,7 +6556,7 @@ needed for processing images in Oriya (Odia) script.
 Summary:       Tesseract data for Oriya (Odia) script
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 %description -n tesseract-script-orya
 Tesseract is an open source Optical Character Recognition (OCR)
@@ -6577,7 +6577,7 @@ needed for processing images in Oriya (Odia) script.
 Summary:       Tesseract data for Sinhala script
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 %description -n tesseract-ocr-traineddata-script-sinhala
 Tesseract is an open source Optical Character Recognition (OCR)
@@ -6596,7 +6596,7 @@ needed for processing images in Sinhala script.
 Summary:       Tesseract data for Sinhala script
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 %description -n tesseract-script-sinh
 Tesseract is an open source Optical Character Recognition (OCR)
@@ -6617,7 +6617,7 @@ needed for processing images in Sinhala script.
 Summary:       Tesseract data for Syriac script
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 %description -n tesseract-ocr-traineddata-script-syriac
 Tesseract is an open source Optical Character Recognition (OCR)
@@ -6636,7 +6636,7 @@ needed for processing images in Syriac script.
 Summary:       Tesseract data for Syriac script
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 %description -n tesseract-script-syrc
 Tesseract is an open source Optical Character Recognition (OCR)
@@ -6657,7 +6657,7 @@ needed for processing images in Syriac script.
 Summary:       Tesseract data for Tamil script
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 %description -n tesseract-ocr-traineddata-script-tamil
 Tesseract is an open source Optical Character Recognition (OCR)
@@ -6676,7 +6676,7 @@ needed for processing images in Tamil script.
 Summary:       Tesseract data for Tamil script
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 %description -n tesseract-script-taml
 Tesseract is an open source Optical Character Recognition (OCR)
@@ -6697,7 +6697,7 @@ needed for processing images in Tamil script.
 Summary:       Tesseract data for Telugu script
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 %description -n tesseract-ocr-traineddata-script-telugu
 Tesseract is an open source Optical Character Recognition (OCR)
@@ -6716,7 +6716,7 @@ needed for processing images in Telugu script.
 Summary:       Tesseract data for Telugu script
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 %description -n tesseract-script-telu
 Tesseract is an open source Optical Character Recognition (OCR)
@@ -6737,7 +6737,7 @@ needed for processing images in Telugu script.
 Summary:       Tesseract data for Thaana script
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 %description -n tesseract-ocr-traineddata-script-thaana
 Tesseract is an open source Optical Character Recognition (OCR)
@@ -6756,7 +6756,7 @@ needed for processing images in Thaana script.
 Summary:       Tesseract data for Thaana script
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 %description -n tesseract-script-thaa
 Tesseract is an open source Optical Character Recognition (OCR)
@@ -6777,7 +6777,7 @@ needed for processing images in Thaana script.
 Summary:       Tesseract data for Thai script
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 %description -n tesseract-ocr-traineddata-script-thai
 Tesseract is an open source Optical Character Recognition (OCR)
@@ -6796,7 +6796,7 @@ needed for processing images in Thai script.
 Summary:       Tesseract data for Thai script
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 %description -n tesseract-script-thai
 Tesseract is an open source Optical Character Recognition (OCR)
@@ -6817,7 +6817,7 @@ needed for processing images in Thai script.
 Summary:       Tesseract data for Tibetan script
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 %description -n tesseract-ocr-traineddata-script-tibetan
 Tesseract is an open source Optical Character Recognition (OCR)
@@ -6836,7 +6836,7 @@ needed for processing images in Tibetan script.
 Summary:       Tesseract data for Tibetan script
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 %description -n tesseract-script-tibt
 Tesseract is an open source Optical Character Recognition (OCR)
@@ -6857,7 +6857,7 @@ needed for processing images in Tibetan script.
 Summary:       Tesseract data for Vietnamese script
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 %description -n tesseract-ocr-traineddata-script-vietnamese
 Tesseract is an open source Optical Character Recognition (OCR)
@@ -6876,7 +6876,7 @@ needed for processing images in Vietnamese script.
 Summary:       Tesseract data for Vietnamese script
 Group:         Productivity/Graphics/Other
 BuildArch:     noarch
-Requires:      %{tessdata} >= 3.99
+Requires:      %{tessdata}
 
 %description -n tesseract-script-viet
 Tesseract is an open source Optical Character Recognition (OCR)
